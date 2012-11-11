@@ -28,8 +28,6 @@
 
 
 def lcs(strings):
-    result = ''
-
     strings = sorted(strings.split())
     short_string = strings[0]
     other_strings = strings[1:]
