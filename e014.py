@@ -44,6 +44,7 @@ def lcs(strings):
             for s2 in other_strings:
                 if s1 not in s2:
                     matched_all = False
+                    break
 
             if matched_all:
                 m = s1
